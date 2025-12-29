@@ -7,7 +7,7 @@ export default function NotFound(){
 
     return(
         <div>
-            <h2>No page like {reviewID} thissss for {productID}</h2>
+            <h2>No page like {reviewID} thissss for {productID }</h2>
             <p>CHECK!!</p>
         </div>
     )
