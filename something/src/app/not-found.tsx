@@ -12,3 +12,6 @@ export default function NotFound(){
         </div>
     )
 }
+// Server code runs before the page reaches the browser
+
+// Client code runs inside the browser

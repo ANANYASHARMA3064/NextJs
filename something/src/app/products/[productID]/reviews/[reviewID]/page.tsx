@@ -5,7 +5,7 @@ export default async function ProductList({ params, }:{
 }){
     const {productID,reviewID} = (await params);
     if(parseInt(reviewID)>1000){
-        notFound();
+        notFound(); 
 
     }
     return <h1>Review {reviewID} for product {productID} </h1>
